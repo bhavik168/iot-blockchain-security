@@ -1,0 +1,31 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": [
+      "error",
+      "^0.8.20"
+    ],
+    "func-visibility": [
+      "warn",
+      {
+        "ignoreConstructors": true
+      }
+    ],
+    "no-global-import": "off",
+    "gas-custom-errors": "off",
+    "gas-strict-inequalities": "off",
+    "gas-increment-by-one": "off",
+    "gas-indexed-events": "off",
+    "gas-small-strings": "off",
+    "not-rely-on-time": "off",
+    "max-line-length": [
+      "warn",
+      120
+    ],
+    "use-natspec": "off",
+    "no-inline-assembly": "off",
+    "one-contract-per-file": "error",
+    "immutable-vars-naming": "off",
+    "gas-struct-packing": "off"
+  }
+}

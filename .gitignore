@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Hardhat build output
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+deployments/hardhat.json
+deployments/localhost.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Research material kept locally (copyrighted papers, meeting notes, reviews)
+Papers/
+Meet/
+Reviews/
+Report/
+Presentations/
+Screenshots/
